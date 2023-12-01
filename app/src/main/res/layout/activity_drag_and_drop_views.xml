@@ -66,35 +66,40 @@
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                 />
+                android:background="@drawable/placeholder_border"
+                android:onClick="onPlaceholderClick" />
 
             <ImageView
                 android:id="@+id/holder02"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                 />
+                android:background="@drawable/placeholder_border"
+                android:onClick="onPlaceholderClick" />
 
             <ImageView
                 android:id="@+id/holder03"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                 />
+                android:background="@drawable/placeholder_border"
+                android:onClick="onPlaceholderClick" />
 
             <ImageView
                 android:id="@+id/holder04"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                 />
+                android:background="@drawable/placeholder_border"
+                android:onClick="onPlaceholderClick" />
 
             <ImageView
                 android:id="@+id/holder05"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                />
+                android:background="@drawable/placeholder_border"
+                android:onClick="onPlaceholderClick" />
 
         </LinearLayout>
 
@@ -106,6 +111,21 @@
         android:layout_height="0dp"
         android:layout_weight="10"
         android:background="@color/design_default_color_secondary">
+
+        <ImageView
+            android:id="@+id/rocketImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rocket_animation"
+            android:layout_centerInParent="true" />
+        <Button
+            android:id="@+id/startStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Animation"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
 
 
     </LinearLayout>
